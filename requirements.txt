@@ -1,9 +1,8 @@
-fastapi
-uvicorn
-numpy
-librosa
-tensorflow
-tensorflow-cpu
-vmdpy
-python-multipart
-pydub
+    fastapi
+    uvicorn
+    numpy
+    librosa
+    tensorflow-cpu
+    vmdpy
+    python-multipart
+    pydub
