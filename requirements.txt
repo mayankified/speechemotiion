@@ -3,6 +3,7 @@ uvicorn
 numpy
 librosa
 tensorflow
+tensorflow-cpu
 vmdpy
 python-multipart
 pydub

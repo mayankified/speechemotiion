@@ -3,6 +3,10 @@ import uvicorn
 import numpy as np
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable GPU
+os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"  # Disable oneDNN optimizations (optional)
+
+import tensorflow as tf
+tf.get_logger().setLevel("ERROR")  # Suppress unnecessary warnings
 
 import librosa
 from vmdpy import VMD
